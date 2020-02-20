@@ -91,7 +91,7 @@
 
 	</platform>
 
-	<!-- <platform name="android">
+	<platform name="android">
 		<icon src="icon/android/ldpi.png" width="36" height="36" qualifier="ldpi" />
 		<icon src="icon/android/mdpi.png" width="48" height="48" qualifier="mdpi" />
 		<icon src="icon/android/hdpi.png" width="72" height="72" qualifier="hdpi" />
@@ -107,7 +107,7 @@
 
    	<platform name="blackberry"><!-- probably not supported at this time in Build -->
     	<icon src="icon/blackberry/icon-80.png" width="80" height="80" />
-	</platform> -->
+	</platform>
 
     <!-- Define app splash screen for each platform. -->
 	<!-- see 'Make Mobile Splash Screens.jsx' (GitHub root directory) for auto creation in photoshop -->
