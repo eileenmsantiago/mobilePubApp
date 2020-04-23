@@ -2,17 +2,17 @@
 
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.eileenms.tilty"
+        id        = "com.eileenms.weathery"
         version   = "3.0.1">
 
-    <name>NoName</name>
+    <name>Weathery</name>
 
     <description>
-        Mobile game to keep your device level while jostling others!
+        Mobile game to change the weather
     </description>
 
-    <author href="http://danzen.com" email="support@danzen.com">
-       Dan Zen
+    <author href="http://eileensantiago.com" email="eileen@gmail.com">
+       Eileen Santiago
     </author>
 
     <!--
