@@ -37,8 +37,6 @@ frame.on("ready", () => {
     var stageW = frame.WIDTH;
     var stageH = frame.HEIGHT;
 
-    // weatherySound(stage, frame);
-
     // Initialize pages
     const SPLASH = new WeatherPage(stage, "Splash.png", null, null, "Weathery", "Listen to music that \nreflects the weather", BGCOLOR);
     const SUNNY = new WeatherPage(stage, "Sunny.png", "day-sunny.mp3","sun.png", "sunny", "call it spring", YELLOW, YELLOWLTE);
@@ -49,7 +47,6 @@ frame.on("ready", () => {
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     // SPLASH PAGE
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
     let pages = new Pages ({
         holder: stage,
@@ -86,7 +83,6 @@ frame.on("ready", () => {
         }
         prevPage = pages.page;
     })
-
 
     stage.update(); 
     console.log("hello");

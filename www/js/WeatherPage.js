@@ -6,20 +6,22 @@ class WeatherPage extends Container {
         this.background = background;
         this.isPlaying = false;
 
-        asset(background).sca(1).addTo(this);
+        asset(background).sca(0.55).addTo(this);
+        // asset(background).addTo(this);
         this.sound;
 
         // Title label 
         this.title = new Label({
             text: header,
-            size: 60, 
+            size: 48, 
             font: "Noto Sans",
             fontOptions: "bold",
             color:white,
             align: "center"
         })
         .addTo(this)
-        .pos(60, 30, LEFT, BOTTOM)
+        .pos(50, 150, LEFT, BOTTOM)
+        // .pos(null, 50, CENTER, BOTTOM)
         .animate({
             props: {
                 alpha: 1
@@ -29,14 +31,16 @@ class WeatherPage extends Container {
 
         this.subtitle = new Label({
             text: subheader,
-            size: 32, 
+            size: 28, 
             font:"Noto Sans",
             fontOptions: "bold",
             color:white,
             align: "center"
         })
         .addTo(this)
-        .pos(60, -60, LEFT, BOTTOM)
+        .pos(50, 60, LEFT, BOTTOM)
+        // .pos(60, -60, LEFT, BOTTOM)
+        // .pos(null, stageH * .5, LEFT, BOTTOM)
         .animate({
             props: {
                 alpha: 1
@@ -55,15 +59,15 @@ class WeatherPage extends Container {
         if(icon) {
             this.playButton = new Button({
                 label: label,
-                width: 300,
-                height: 300,
+                width: 200,
+                height: 200,
                 corners: 200,
                 borderWidth: 0,
                 backgroundColor: primaryColor,
                 rollBackgroundColor: secondaryColor
             })
             .alp()
-            .pos(null, 300, CENTER)
+            .pos(null, null, CENTER)
             .ord(10)
             .addTo(this)
 
@@ -84,7 +88,6 @@ class WeatherPage extends Container {
                 stage.update();
             })
         }
-
     }
 
     stopSound() {
