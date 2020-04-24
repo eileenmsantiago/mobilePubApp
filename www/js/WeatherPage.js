@@ -55,7 +55,6 @@ class WeatherPage extends Container {
             fontOptions: "bold"
         });
 
-
         if(icon) {
             this.playButton = new Button({
                 label: label,
@@ -67,7 +66,7 @@ class WeatherPage extends Container {
                 rollBackgroundColor: secondaryColor
             })
             .alp()
-            .pos(null, null, CENTER)
+            .pos(null, null, CENTER, CENTER)
             .ord(10)
             .addTo(this)
 
