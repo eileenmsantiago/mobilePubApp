@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.eileenms.tilty" version="3.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>NoName</name>
+<widget id="com.eileenms.weathery" version="3.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Weathery</name>
     <description>
-        Mobile game to keep your device level while jostling others!
+        Mobile game to change the weather
     </description>
-    <author email="support@danzen.com" href="http://danzen.com">
-       Dan Zen
+    <author email="eileen@gmail.com" href="http://eileensantiago.com">
+       Eileen Santiago
     </author>
     <access browserOnly="true" origin="*" />
     <icon height="57" src="icon.png" width="57" />
