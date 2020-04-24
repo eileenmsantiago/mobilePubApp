@@ -30,7 +30,7 @@ let ENERGIZE_ICON;
 let NIGHT_ICON;
 let RAINY_ICON;
 
-frame.on("ready", () => {
+frame.on("resize", () => {
     console.log(frame);
 
     const stage = frame.stage;
@@ -75,6 +75,8 @@ frame.on("ready", () => {
         transition: "slide",
         speed: 300
     }).addTo(stage);
+
+    pages.resize();
 
     let prevPage = pages.page;
     pages.on("page", function() {
